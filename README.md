@@ -2,48 +2,44 @@
   <img src="github_banner.png" alt="Cheva Kavitha Banner" width="100%" />
 </p>
 
-<h1 align="center">👋 Hi, I’m Cheva Kavitha</h1>
-<p align="center"><strong>AI & Data Science — building reliable ML systems, interpretable models, and real-world AI applications.</strong></p>
+<p align="center">
+  <img src="YOUR_BANNER_IMAGE_LINK" width="100%" />
+</p>
+
+<h1 align="center">👋 Hi, I'm Cheva Kavitha</h1>
+<p align="center">AI Engineer • Data Scientist • ML Developer</p>
 
 ---
 
-## 🔎 About
-I design and implement end-to-end machine learning solutions that transform raw data into actionable intelligence. My work focuses on natural language processing, explainable AI, and production-ready pipelines that deliver measurable business impact.
+## 🚀 About Me
+I design and build intelligent systems that transform complex data into clear, actionable outcomes using machine learning, NLP, deep learning, and explainable AI. I focus on creating reliable and interpretable ML pipelines, production-grade deployments, scalable architecture, and AI solutions that deliver measurable impact across research, healthcare, finance, and business analytics.
 
 ---
 
-## 📚 Featured Projects
-- **Real-Time NLP Sentiment Analysis** — transformer-driven, real-time inference and explainability.  
-  https://github.com/chevvakavitha/Real-Time-NLP-Sentiment-Analysis
+## ⭐ Featured Projects
 
-- **Paper Recommender (FAISS)** — semantic search and vector retrieval with embeddings.  
-  https://github.com/chevvakavitha/paper-recommender
+### 🔹 Real-Time NLP Sentiment Analysis  
+https://github.com/chevvakavitha/Real-Time-NLP-Sentiment-Analysis
 
-- **XAI Credit Scoring** — explainable credit risk model using SHAP + XGBoost.  
-  https://github.com/chevvakavitha/XAI-Credit-Scoring
+### 🔹 Paper Recommender (FAISS)  
+https://github.com/chevvakavitha/paper-recommender
 
-- **Customer Retention Predictor** — churn prediction with actionable retention insights.  
-  https://github.com/chevvakavitha/Customer-Retention-Predictor-Churn-Prediction-System
+### 🔹 XAI Credit Scoring  
+https://github.com/chevvakavitha/XAI-Credit-Scoring
 
-- **AI-Powered Predictive Health Insights** — multi-task health forecasting and explainability.  
-  https://github.com/chevvakavitha/health-insights
+### 🔹 Customer Retention Predictor  
+https://github.com/chevvakavitha/Customer-Retention-Predictor-Churn-Prediction-System
 
----
-
-## 🛠 Tech Stack
-Python • PyTorch • TensorFlow • Hugging Face Transformers • XGBoost • SHAP • Scikit-Learn • SQL • Power BI • AWS
+### 🔹 Predictive Health Insights  
+https://github.com/chevvakavitha/health-insights
 
 ---
 
-## 📫 Contact
-- GitHub: https://github.com/chevvakavitha  
-- LinkedIn: *(add link)*  
-- Email: *(add email)*
+## 🛠 Tech Stack  
+Python • PyTorch • TensorFlow • Transformers • NLP • SHAP • XGBoost • SQL • Power BI • Linux • AWS
 
 ---
 
-If this looks good I will:
-1. Provide the two exact image files you need to upload (the banner + the illustration) as download links here.  
-2. Give the **exact 3-step** upload checklist one more time so you can finish in 2 minutes.
-
-Tell me: **“Yes upload files”** and I’ll give the downloads and the final 2-minute checklist.
+## 📫 Contact  
+LinkedIn https://www.linkedin.com/in/cheva-kavitha/ 
+Email kavithachevvakavitha@gmail.com
