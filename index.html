@@ -3,67 +3,103 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Cheva Kavitha — AI & Data Science Portfolio</title>
+  <title>Cheva Kavitha — Portfolio</title>
   <style>
-    :root{
-      --bg:#071021; --accent:#4ec6d1; --text:#e6eef6; --muted:#9fb0c3; --maxw:1150px;
+    body {
+      margin:0; font-family:Arial; background:#0b1220; color:white;
     }
-    *{box-sizing:border-box}
-    body{ margin:0; font-family:Inter,Roboto,Arial,sans-serif; background:linear-gradient(180deg,#071021 0%,#04111b 100%); color:var(--text); }
-    .container{ max-width:1200px; margin:32px auto; padding:20px; }
-    header{ display:flex; justify-content:center; }
-    header img{ width:100%; max-width:1200px; border-radius:8px; box-shadow:0 20px 60px rgba(3,12,20,.6); }
-    .hero{ display:grid; grid-template-columns: 1fr 480px; gap:32px; align-items:center; margin-top:28px; }
-    .left .intro{ color:var(--muted); margin:8px 0 8px 0; font-size:15px; }
-    .left h1{ font-size:56px; line-height:0.95; margin:6px 0; color:#ffffff; }
-    .left h1 .accent{ color:var(--accent); display:inline-block; }
-    .lead{ margin-top:18px; color:var(--text); font-size:17px; max-width:680px; }
-    .cta{ display:inline-flex; align-items:center; gap:10px; margin-top:20px; padding:12px 18px; border-radius:999px; border:2px solid rgba(78,198,209,.18); color:var(--accent); text-decoration:none; font-weight:600; }
-    .right .card{ border-radius:16px; overflow:hidden; box-shadow:0 20px 60px rgba(3,12,20,.6); border:1px solid rgba(255,255,255,.03); }
-    .right img{ display:block; width:100%; height:auto; }
-    .skills{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-top:34px; }
-    .skill{ background:#0b2430; padding:10px 12px; border-radius:8px; color:var(--muted); text-align:center; font-weight:600; }
-    footer{ text-align:center; color:var(--muted); margin:40px 0 80px;}
-    @media(max-width:1000px){ .hero{ grid-template-columns:1fr; } .right{ order:-1; } .left h1{ font-size:42px; } }
+    .wrap { max-width:1100px; margin:auto; padding:20px; }
+
+    /* NAV */
+    nav { display:flex; gap:20px; margin-bottom:30px; }
+    nav a { color:#9fb0c3; text-decoration:none; }
+    nav a:hover { color:#5ee0d6; }
+
+    /* HERO */
+    .hero { display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:center; }
+    h1 { font-size:48px; margin:0; }
+    .accent { color:#5ee0d6; }
+    .lead { font-size:18px; margin-top:10px; line-height:1.5; }
+
+    .banner img {
+      width:100%; border-radius:12px;
+    }
+
+    /* PROJECT GRID */
+    .section { margin-top:40px; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; }
+    .card {
+      background:#071827; padding:20px; border-radius:12px;
+    }
+    .card h3 { margin-top:0; }
+    .card p { color:#9fb0c3; }
+    .btn { color:#5ee0d6; text-decoration:none; font-weight:bold; }
+
+    footer {
+      margin-top:50px; text-align:center; color:#9fb0c3; padding:20px;
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- banner (upload assets/github_banner.png in the website repo) -->
-    <header><img src="assets/github_banner.png" alt="Cheva Kavitha — Portfolio Banner" /></header>
+  <div class="wrap">
 
-    <section class="hero" aria-label="hero">
-      <div class="left">
-        <p class="intro">Hi there — I’m</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+      <div>
         <h1>Cheva <span class="accent">Kavitha</span></h1>
-
         <p class="lead">
-          I design and build intelligent systems that convert complex data into actionable insights using machine learning, NLP, and explainability. I develop production-ready pipelines, scalable deployments, and clear data visualizations that help teams make fast, evidence-driven decisions. I focus on interpretability, predictive analytics, automation, and robust engineering to deliver reliable, impactful solutions.
+          I design and build intelligent systems that transform complex data into actionable outcomes using machine learning, NLP, deep learning, and explainable AI. I create scalable pipelines, production-ready deployments, and AI solutions with real-world impact.
         </p>
-
-        <a class="cta" href="#contact">Let's Connect →</a>
-
-        <div class="skills" id="skills" style="margin-top:28px;">
-          <div class="skill">Python</div>
-          <div class="skill">NLP & Transformers</div>
-          <div class="skill">XAI (SHAP)</div>
-          <div class="skill">Deep Learning</div>
-          <div class="skill">Model Deployment</div>
-          <div class="skill">Power BI & Viz</div>
-        </div>
       </div>
 
-      <div class="right">
+      <div class="banner">
+        <img src="YOUR_BANNER_IMAGE_LINK" alt="Portfolio Banner" />
+      </div>
+    </div>
+
+    <div id="projects" class="section">
+      <h2>Featured Projects</h2>
+      <div class="projects">
+
         <div class="card">
-          <!-- right-side illustration: (uploaded earlier) -->
-          <img src="assets/illustration.png" alt="Illustration" />
+          <h3>Real-Time NLP Sentiment Analysis</h3>
+          <p>Transformer-based real-time inference and explainability.</p>
+          <a class="btn" href="https://github.com/chevvakavitha/Real-Time-NLP-Sentiment-Analysis">View Project →</a>
         </div>
-      </div>
-    </section>
 
-    <footer>
-      © 2025 Cheva Kavitha — AI & Data Science. • <a href="https://github.com/chevvakavitha" style="color:var(--muted)">GitHub</a>
-    </footer>
+        <div class="card">
+          <h3>Paper Recommender (FAISS)</h3>
+          <p>Semantic research-paper retrieval with embeddings + FAISS.</p>
+          <a class="btn" href="https://github.com/chevvakavitha/paper-recommender">View Project →</a>
+        </div>
+
+        <div class="card">
+          <h3>XAI Credit Scoring</h3>
+          <p>Explainable ML system using SHAP + XGBoost.</p>
+          <a class="btn" href="https://github.com/chevvakavitha/XAI-Credit-Scoring">View Project →</a>
+        </div>
+
+        <div class="card">
+          <h3>Customer Retention Predictor</h3>
+          <p>Churn prediction with SHAP explainability.</p>
+          <a class="btn" href="https://github.com/chevvakavitha/Customer-Retention-Predictor-Churn-Prediction-System">View Project →</a>
+        </div>
+
+        <div class="card">
+          <h3>Predictive Health Insights</h3>
+          <p>Health forecasting + ML explainability.</p>
+          <a class="btn" href="https://github.com/chevvakavitha/health-insights">View Project →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>© 2025 Cheva Kavitha</footer>
   </div>
 </body>
 </html>
