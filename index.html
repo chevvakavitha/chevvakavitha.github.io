@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cheva Kavitha — AI & Data Science Portfolio</title>
+  <style>
+    :root{
+      --bg:#071021; --accent:#4ec6d1; --text:#e6eef6; --muted:#9fb0c3; --maxw:1150px;
+    }
+    *{box-sizing:border-box}
+    body{ margin:0; font-family:Inter,Roboto,Arial,sans-serif; background:linear-gradient(180deg,#071021 0%,#04111b 100%); color:var(--text); }
+    .container{ max-width:1200px; margin:32px auto; padding:20px; }
+    header{ display:flex; justify-content:center; }
+    header img{ width:100%; max-width:1200px; border-radius:8px; box-shadow:0 20px 60px rgba(3,12,20,.6); }
+    .hero{ display:grid; grid-template-columns: 1fr 480px; gap:32px; align-items:center; margin-top:28px; }
+    .left .intro{ color:var(--muted); margin:8px 0 8px 0; font-size:15px; }
+    .left h1{ font-size:56px; line-height:0.95; margin:6px 0; color:#ffffff; }
+    .left h1 .accent{ color:var(--accent); display:inline-block; }
+    .lead{ margin-top:18px; color:var(--text); font-size:17px; max-width:680px; }
+    .cta{ display:inline-flex; align-items:center; gap:10px; margin-top:20px; padding:12px 18px; border-radius:999px; border:2px solid rgba(78,198,209,.18); color:var(--accent); text-decoration:none; font-weight:600; }
+    .right .card{ border-radius:16px; overflow:hidden; box-shadow:0 20px 60px rgba(3,12,20,.6); border:1px solid rgba(255,255,255,.03); }
+    .right img{ display:block; width:100%; height:auto; }
+    .skills{ display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; margin-top:34px; }
+    .skill{ background:#0b2430; padding:10px 12px; border-radius:8px; color:var(--muted); text-align:center; font-weight:600; }
+    footer{ text-align:center; color:var(--muted); margin:40px 0 80px;}
+    @media(max-width:1000px){ .hero{ grid-template-columns:1fr; } .right{ order:-1; } .left h1{ font-size:42px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- banner (upload assets/github_banner.png in the website repo) -->
+    <header><img src="assets/github_banner.png" alt="Cheva Kavitha — Portfolio Banner" /></header>
+
+    <section class="hero" aria-label="hero">
+      <div class="left">
+        <p class="intro">Hi there — I’m</p>
+        <h1>Cheva <span class="accent">Kavitha</span></h1>
+
+        <p class="lead">
+          I design and build intelligent systems that convert complex data into actionable insights using machine learning, NLP, and explainability. I develop production-ready pipelines, scalable deployments, and clear data visualizations that help teams make fast, evidence-driven decisions. I focus on interpretability, predictive analytics, automation, and robust engineering to deliver reliable, impactful solutions.
+        </p>
+
+        <a class="cta" href="#contact">Let's Connect →</a>
+
+        <div class="skills" id="skills" style="margin-top:28px;">
+          <div class="skill">Python</div>
+          <div class="skill">NLP & Transformers</div>
+          <div class="skill">XAI (SHAP)</div>
+          <div class="skill">Deep Learning</div>
+          <div class="skill">Model Deployment</div>
+          <div class="skill">Power BI & Viz</div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="card">
+          <!-- right-side illustration: (uploaded earlier) -->
+          <img src="assets/illustration.png" alt="Illustration" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Cheva Kavitha — AI & Data Science. • <a href="https://github.com/chevvakavitha" style="color:var(--muted)">GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
